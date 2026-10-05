@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Infografis Horizontal — Lini Masa 500 Tahun Jakarta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>:root{--bg:#efe5d0;--panel:#f8f2e6;--ink-bg:#241a10;--ink:#291f14;--soft:#6b5c47;--rule:#cdbc98;--gold:#9c7a2e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);background-image:radial-gradient(circle at 15% 8%,rgba(41,31,20,.05),transparent 45%);color:var(--ink);font-family:'Source Sans 3',system-ui,sans-serif;line-height:1.5}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif}
+.head{background:var(--ink-bg);color:#f3ead9;padding:2.8rem 1.5rem 2.4rem;position:relative}
+.head::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:repeating-linear-gradient(90deg,#9c7a2e 0 14px,transparent 14px 28px);opacity:.6}
+.in{max-width:1080px;margin:0 auto}.e{color:#c9a35c;font:italic 450 .95rem 'Fraunces',serif;margin:0 0 .5rem}
+.head h1{font-size:clamp(1.9rem,4.5vw,3rem);margin:0;line-height:1.08;font-weight:600;text-align:center}.head p.l{color:#d9cdb4;max-width:64ch;margin:0}
+.hint{max-width:1080px;margin:1.2rem auto .6rem;padding:0 1.5rem;font-size:.88rem;color:var(--soft);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.scroll{overflow-x:auto;padding:0 0 1.5rem;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:rgba(248,242,230,.35);scroll-behavior:smooth}
+.board{display:grid;grid-template-columns:136px repeat(7,340px);width:max-content;padding:1.4rem 1.5rem 0 0}
+.lab{position:sticky;left:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.55rem;padding:0 .6rem;text-align:center;color:#f3ead9;margin-right:.6rem}.lab svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:.9}
+.lab span{font:600 .98rem/1.2 'Fraunces',serif;letter-spacing:.02em}
+.l1{background:var(--ink-bg)}.l2{background:var(--gold)}.l3{background:#3d6b6b}
+.c{position:relative;padding:0 .5rem}
+.c1{padding-bottom:26px}.c1::after,.c3::before{content:"";position:absolute;left:50%;width:2px;background:var(--c);height:26px}
+.c1::after{bottom:0}.c3{padding-top:26px}.c3::before{top:0}
+.card{background:var(--panel);border-top:4px solid var(--c);padding:.9rem 1rem 1rem;height:100%;box-shadow:0 3px 10px rgba(41,31,20,.1);position:relative}
+.tg,.dm{display:inline-block;font:600 .72rem 'Source Sans 3';letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.3rem}
+.dm{text-transform:none;letter-spacing:0;font:italic 450 .86rem 'Fraunces',serif;background:var(--t);padding:.1em .6em;border-radius:2px}
+.card h3{margin:.1rem 0 .4rem;font-size:1.12rem;line-height:1.2;font-weight:600}.card p{margin:0;font-size:.9rem;color:var(--soft);line-height:1.5}.card p+p{margin-top:.55rem}
+.lg{margin-top:.7rem;background:var(--ink-bg);color:#f3ead9;font-size:.82rem;padding:.3em .7em;display:inline-block}.lg b{color:#c9a35c}
+.c2{display:flex;flex-direction:column;justify-content:center;padding:.9rem 0}
+.blk{background:var(--c);color:#fff;padding:.7rem 1.6rem .7rem 1.7rem;min-height:92px;display:flex;flex-direction:column;justify-content:center;position:relative;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 50%,calc(100% - 22px) 100%,0 100%,22px 50%);margin:0 -.5rem 0 -.5rem}
+.c2.f .blk{clip-path:polygon(0 0,calc(100% - 22px) 0,100% 50%,calc(100% - 22px) 100%,0 100%)}
+.yr{font:600 1.5rem 'Fraunces',serif;line-height:1}.blk b{font:600 1.05rem/1.25 'Fraunces',serif}.blk small{opacity:.9;font-size:.85rem;margin-top:.25rem}
+.nm{text-align:center;font:italic 450 .92rem 'Fraunces',serif;color:var(--c);margin-top:.5rem}
+.nm::before{content:"nama kota: ";color:var(--soft);font-size:.78rem}
+.foot{max-width:1080px;margin:1.4rem auto 3rem;padding:0 1.5rem;font-size:.88rem;color:var(--soft);display:flex;gap:1.6rem;flex-wrap:wrap}.foot b{color:var(--ink)}
+@media print{.scroll{overflow:visible;zoom:.36}}
+/* ===== MOTION ===== */
+.mo .head h1{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.mo .head::after{background-size:28px 100%;animation:stripe 2.4s linear infinite}
+.mo .lab{animation:fromL .7s cubic-bezier(.2,.7,.2,1) both}
+.mo .l2{animation-delay:.12s}.mo .l3{animation-delay:.24s}
+.mo .c{opacity:0}
+.mo .c.in.c1{animation:drop .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0s)}
+.mo .c.in.c2{animation:slide .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0s) + .15s)}
+.mo .c.in.c3{animation:lift .7s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0s) + .3s)}
+.mo .c1.in::after{transform-origin:bottom;animation:grow .4s ease-out both;animation-delay:calc(var(--d,0s) + .45s)}
+.mo .c3.in::before{transform-origin:top;animation:grow .4s ease-out both;animation-delay:calc(var(--d,0s) + .55s)}
+.mo .card{transition:transform .25s ease,box-shadow .25s ease}
+.mo .card:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(41,31,20,.2)}
+.mo .blk{transition:filter .25s ease}.mo .blk:hover{filter:brightness(1.12)}
+.hint .ar{display:inline-block;animation:nudge 1.2s ease-in-out infinite}
+.hint{transition:opacity .5s}.hint.off{opacity:0}
+#prog{position:fixed;top:0;left:0;height:4px;width:100%;background:var(--gold);transform:scaleX(0);transform-origin:left;z-index:50}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes stripe{to{background-position:28px 0}}
+@keyframes fromL{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+@keyframes drop{from{opacity:0;transform:translateY(-28px)}to{opacity:1;transform:none}}
+@keyframes lift{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes slide{from{opacity:0;transform:translateX(-48px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes nudge{50%{transform:translateX(7px)}}
+@media print{.mo .c{opacity:1!important;animation:none!important}.mo .c::before,.mo .c::after{animation:none!important}#prog,.hint{display:none}}
+.t-off{visibility:hidden}
+.mo .t-on.cur::after{content:"";display:inline-block;width:2px;height:1em;margin-left:1px;vertical-align:-.15em;background:currentColor;animation:blink .7s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media print{.t-off{visibility:visible}.t-on.cur::after{display:none}}
+
+/* ===== ILUSTRASI LATAR ===== */
+.card{background-repeat:no-repeat;background-position:right -6px bottom -4px;background-size:62% auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.c[data-col="2"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%23556848' fill-opacity='.17'%3E%3Cpath d='M20 82H180L160 100H40Z'/%3E%3Crect x='98' y='20' width='3' height='62'/%3E%3Cpath d='M100 22L162 76H100Z'/%3E%3Cpath d='M96 30L48 76H96Z'/%3E%3Cpath d='MM0 108 q10-8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0' fill='none' stroke='%23556848' stroke-opacity='.17' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="3"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%232a3550' fill-opacity='.17'%3E%3Cpolygon points='10,110 10,52 18,52 18,42 26,42 26,32 34,32 34,42 42,42 42,52 50,52 50,110'/%3E%3Cpolygon points='60,110 60,40 68,40 68,30 76,30 76,20 84,20 84,30 92,30 92,40 100,40 100,110'/%3E%3Cpolygon points='110,110 110,52 118,52 118,42 126,42 126,32 134,32 134,42 142,42 142,52 150,52 150,110'/%3E%3Cpolygon points='150,110 150,44 158,44 158,34 166,34 166,24 174,24 174,34 182,34 182,44 190,44 190,110'/%3E%3Cpath d='MM0 108 q10-8 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0' fill='none' stroke='%232a3550' stroke-opacity='.17' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="4"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%238a4a2b' fill-opacity='.17'%3E%3Cpolygon points='30,50 100,20 170,50'/%3E%3Crect x='30' y='52' width='140' height='8'/%3E%3Crect x='40' y='62' width='10' height='38'/%3E%3Crect x='62' y='62' width='10' height='38'/%3E%3Crect x='84' y='62' width='10' height='38'/%3E%3Crect x='106' y='62' width='10' height='38'/%3E%3Crect x='128' y='62' width='10' height='38'/%3E%3Crect x='150' y='62' width='10' height='38'/%3E%3Crect x='24' y='100' width='152' height='10'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="5"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%236e2727' fill-opacity='.17'%3E%3Cpath d='M66 100A34 34 0 0 1 134 100Z'/%3E%3Cg stroke='%236e2727' stroke-opacity='.17' stroke-width='4'%3E%3Cline x1='146.0' y1='100.0' x2='192.0' y2='100.0'/%3E%3Cline x1='144.4' y1='88.1' x2='188.9' y2='76.2'/%3E%3Cline x1='139.8' y1='77.0' x2='179.7' y2='54.0'/%3E%3Cline x1='132.5' y1='67.5' x2='165.1' y2='34.9'/%3E%3Cline x1='123.0' y1='60.2' x2='146.0' y2='20.3'/%3E%3Cline x1='111.9' y1='55.6' x2='123.8' y2='11.1'/%3E%3Cline x1='100.0' y1='54.0' x2='100.0' y2='8.0'/%3E%3Cline x1='88.1' y1='55.6' x2='76.2' y2='11.1'/%3E%3Cline x1='77.0' y1='60.2' x2='54.0' y2='20.3'/%3E%3Cline x1='67.5' y1='67.5' x2='34.9' y2='34.9'/%3E%3Cline x1='60.2' y1='77.0' x2='20.3' y2='54.0'/%3E%3Cline x1='55.6' y1='88.1' x2='11.1' y2='76.2'/%3E%3Cline x1='54.0' y1='100.0' x2='8.0' y2='100.0'/%3E%3C/g%3E%3Crect x='0' y='104' width='200' height='3'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="6"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%238a2b2b' fill-opacity='.17'%3E%3Crect x='38' y='8' width='4' height='102'/%3E%3Cpath d='M42 12q30-12 60 0t60 0v18q-30 12-60 0t-60 0Z'/%3E%3Cpath d='M42 32q30-12 60 0t60 0v18q-30 12-60 0t-60 0Z' fill='none' stroke='%238a2b2b' stroke-opacity='.17' stroke-width='3'/%3E%3Crect x='26' y='106' width='28' height='6'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="7"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%239c7a2e' fill-opacity='.17'%3E%3Crect x='70' y='100' width='60' height='10'/%3E%3Crect x='80' y='88' width='40' height='12'/%3E%3Cpolygon points='96,88 104,88 102,22 98,22'/%3E%3Crect x='88' y='50' width='24' height='6'/%3E%3Cpath d='M100 4q-9 9 0 18q9-9 0-18z'/%3E%3Crect x='20' y='80' width='16' height='30'/%3E%3Crect x='40' y='70' width='14' height='40'/%3E%3Crect x='150' y='76' width='16' height='34'/%3E%3Crect x='170' y='86' width='14' height='24'/%3E%3C/g%3E%3C/svg%3E")}
+.c[data-col="8"] .card{background-color:var(--panel);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 120'%3E%3Cg fill='%233d6b6b' fill-opacity='.17'%3E%3Crect x='10' y='60' width='20' height='50'/%3E%3Crect x='34' y='30' width='18' height='80'/%3E%3Crect x='56' y='50' width='22' height='60'/%3E%3Crect x='82' y='10' width='16' height='100'/%3E%3Crect x='102' y='40' width='24' height='70'/%3E%3Crect x='130' y='20' width='20' height='90'/%3E%3Crect x='154' y='55' width='18' height='55'/%3E%3Crect x='176' y='70' width='18' height='40'/%3E%3Crect x='89' y='4' width='2' height='10'/%3E%3Crect x='0' y='112' width='200' height='3'/%3E%3C/g%3E%3C/svg%3E")}
+</style></head><body>
+<header class="head"><div class="in"><h1>Dulu Kampung Gue, Sekarang Kota Kite</h1></div></header>
+<div class="scroll"><div class="board"><div class="lab l1" style="grid-column:1;grid-row:1;"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V10M9 21V10M15 21V10M19 21V10M2 10l10-6 10 6z"/></svg><span>Pemerintahan</span></div><div class="lab l2" style="grid-column:1;grid-row:2;"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/></svg><span>Periode</span></div><div class="lab l3" style="grid-column:1;grid-row:3;"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.2c3 .2 5 2.3 5 5.3"/></svg><span>Kesejahteraan Masyarakat</span></div><div class="c c1" data-col="2" style="--c:#556848;--t:#eef1e7;grid-column:2;grid-row:1;"><div class="card"><p>Pada masa Sunda Kelapa, pemerintahan telah terorganisasi, terutama dalam pengelolaan pelabuhan, dengan pejabat seperti hakim, juru tulis, dan syahbandar. Sunda Kelapa menjadi pelabuhan “terbaik dan terpenting” Kerajaan Sunda, dengan pabean di Ancol Tamiang.</p><p>Setelah Fatahillah mengambil alih kekuasaan pada tahun 1527, Sunda Kelapa berganti nama menjadi Jayakarta. Dalam perjalanannya, Jayakarta berada di bawah pengaruh Kesultanan Banten dan semakin berkembang sebagai simpul perdagangan internasional, yang pada awal abad ke-17 menghubungkan jaringan niaga Jawa, Sumatra, Maluku, India, Tiongkok, hingga Timur Tengah.</p></div></div><div class="c c2 f" data-col="2" style="--c:#556848;--t:#eef1e7;grid-column:2;grid-row:2;"><div class="blk"><b>Jakarta pada Masa Sunda Kelapa dan Jayakarta</b><small>Prakolonial</small></div></div><div class="c c3" data-col="2" style="--c:#556848;--t:#eef1e7;grid-column:2;grid-row:3;"><div class="card"><p>Sebelum kedatangan VOC, Sunda Kelapa dan Jayakarta merupakan pelabuhan penting di pesisir utara Jawa. Letaknya yang strategis di muara Sungai Ciliwung mempertemukan jaringan niaga dari Jawa, Sumatra, Maluku, India, Tiongkok, hingga Timur Tengah, sehingga terbentuk karakter masyarakat yang terbuka terhadap interaksi manusia dan perdagangan internasional.</p></div></div><div class="c c1" data-col="3" style="--c:#2a3550;--t:#e8eaf0;grid-column:3;grid-row:1;"><div class="card"><p>Laksamana Cornelis Matelief de Jonge (1570-1632) merumuskan tiga gagasan ibu kota baru VOC, yaitu kepemimpinan terpusat, titik temu niaga sekaligus pusat pemerintahan, dan penguatan monopoli rempah di "Timur Raya". Gubernur Jenderal VOC Jan Pieterszoon Coen menilai Jayakarta memenuhi kriteria tersebut. Setelah ditaklukkan pada 1619, kota ini dinamai Batavia dan menjadi pusat administrasi serta pelayaran tersibuk VOC di Asia.</p></div></div><div class="c c2" data-col="3" style="--c:#2a3550;--t:#e8eaf0;grid-column:3;grid-row:2;"><div class="blk"><b>Jakarta pada Masa Kolonialisme VOC</b><small>Abad Ke-17 dan Ke-18</small></div></div><div class="c c3" data-col="3" style="--c:#2a3550;--t:#e8eaf0;grid-column:3;grid-row:3;"><div class="card"><p>VOC membangun sistem kekuasaan yang sangat hierarkis melalui monopoli perdagangan, perbudakan, segregasi etnis, dan pengelompokan. Pengelompokan berdasarkan asal-usul etnis, agama, dan status hukum, sementara kekayaan, pekerjaan, serta kedekatan dengan kekuasaan turut menentukan kedudukan seseorang. Di balik hierarki tersebut, terdapat ruang bagi perubahan status melalui perdagangan, jasa, perkawinan, dan  pekerjaan, sehingga batas sosial tidak pernah sepenuhnya bersifat tertutup.</p></div></div><div class="c c1" data-col="4" style="--c:#8a4a2b;--t:#f3e6dc;grid-column:4;grid-row:1;"><div class="card"><p>Setelah VOC berakhir pada 1799, Batavia menjadi pusat pemerintahan Hindia Belanda. Gubernur Jenderal Herman Willem Daendels memindahkan pusat kekuasaan dari Kota Tua ke Weltevreden yang ditandai dengan pembangunan Witte Huis (kini Gedung A.A. Maramis). Pada periode ini juga, lahir UU Desentralisasi (1903) dan Gemeente Batavia (1905) yang mengatur tentang pemerintahan kota.</p></div></div><div class="c c2" data-col="4" style="--c:#8a4a2b;--t:#f3e6dc;grid-column:4;grid-row:2;"><div class="blk"><b>Jakarta pada Masa Kolonialisme Hindia Belanda</b><small>1800-1942</small></div></div><div class="c c3" data-col="4" style="--c:#8a4a2b;--t:#f3e6dc;grid-column:4;grid-row:3;"><div class="card"><p>Kehidupan masyarakat Batavia pada abad ke-19 hingga awal abad ke-20 diwarnai ketimpangan dalam berbagai aspek. Kota mengalami perkembangan, tetapi akses terhadap perkembangan itu ditentukan oleh ras, kelas, gender, pekerjaan, dan kedudukan hukum.</p><p>Pertumbuhan organisasi intelektual dan pers, pada pertengahan hingga akhir abad ke-19 membuka ruang aspirasi bagi sebagian masyarakat, meski terbatas dan diawasi oleh pemerintah kolonial. Pada awal abad ke-20, tuntutan ekonomi-politik bumiputra menguat melalui organisasi seperti Sarekat Islam dan Volksraad.</p></div></div><div class="c c1" data-col="5" style="--c:#6e2727;--t:#f1e2e2;grid-column:5;grid-row:1;"><div class="card"><p>Pada masa pendudukan Jepang, terjadi perubahan tata pemerintahan di Jakarta. Gemeente Batavia dan Gemeenteraad dihapus, nama Batavia resmi menjadi Djakarta (September 1942), dengan status Tokubetu Shi di bawah Gunseikan, dipimpin oleh Sakae Tukamoto. Tonarigumi dan Jichoukai (tahun 1944) mengawasi warga dan memobilisasi tenaga, termasuk romusha. Dalam perjalanannya, muncul gerakan pemuda yang berpusat di Menteng 31 dan Prapatan 10. Gerakan ini menjadi cikal bakal perjuangan menuju Proklamasi Kemerdekaan.</p></div></div><div class="c c2" data-col="5" style="--c:#6e2727;--t:#f1e2e2;grid-column:5;grid-row:2;"><div class="blk"><b>Jakarta pada Masa Pendudukan Jepang</b><small>1942-1945</small></div></div><div class="c c3" data-col="5" style="--c:#6e2727;--t:#f1e2e2;grid-column:5;grid-row:3;"><div class="card"><p>Pada masa pendudukan Jepang, disrupsi sosial terjadi akibat ekonomi yang diarahkan untuk kebutuhan perang. Pemerintah pendudukan Jepang membentuk Tonarigumi dan Fujinkai untuk menjaga stabilitas sosial. Tonarigumi merupakan cikal bakal RT/ RW, sementara Fujinkai menjadi gerakan PKK.</p></div></div><div class="c c1" data-col="6" style="--c:#8a2b2b;--t:#f6e4dc;grid-column:6;grid-row:1;"><div class="card"><p>Setelah Proklamasi Kemerdekaan Indonesia, Soewirjo diangkat menjadi wali kota pada 29 September 1945. Tahun 1950, kota dan karesidenan Jakarta disatukan menjadi Kotapraja Jakarta Raya, sebagai bagian dari Jawa Barat.</p><p>Pada masa Wali Kota Sjamsuridzal, pembangunan difokuskan pada bidang pendidikan, infrastruktur, air bersih, dan kesehatan. Kemudian, pada masa kepemimpinan Soediro, diterapkan sistem Rukun Tetangga/ Rukun Kampung. Jakarta menjadi daerah otonom bernama Kotamadya Djakarta Raya pada 18 Januari 1958.</p></div></div><div class="c c2" data-col="6" style="--c:#8a2b2b;--t:#f6e4dc;grid-column:6;grid-row:2;"><div class="blk"><b>Jakarta setelah Kemerdekaan</b><small>1945-1960</small></div></div><div class="c c3" data-col="6" style="--c:#8a2b2b;--t:#f6e4dc;grid-column:6;grid-row:3;"><div class="card"><p>Periode 1945–1960 adalah masa perubahan besar bagi masyarakat Jakarta. Kota yang sebelumnya merupakan pusat kekuasaan kolonial berubah menjadi ibu kota negara. Sementara itu, kehidupan sehari-hari masih dibayangi oleh kekerasan, kehadiran Sekutu dan NICA, perpindahan penduduk, serta ketidakpastian politik.</p><p>Pada masa ini juga, Jakarta menjadi titik temu masyarakat dari berbagai latar belakang, orang Sunda, Jawa, Melayu, Minangkabau, Batak, Bugis, Ambon, Tionghoa. Pertemuan itu menciptakan pengalaman urban yang menjadi fondasi masyarakat pascakolonial.</p></div></div><div class="c c1" data-col="7" style="--c:#9c7a2e;--t:#f3ecd9;grid-column:7;grid-row:1;"><div class="card"><p>Jakarta menjadi Daerah Tingkat I yang dipimpin oleh gubernur pada tahun 1959 dan kemudian ditetapkan sebagai Daerah Khusus Ibu Kota pada tahun 1961. UU No. 10/1964 menegaskan statusnya sebagai Ibu Kota Negara.</p><p>Pada masa Ali Sadikin, dijalankan Djakarta Master Plan 1965–1985 dan pembulatan wilayah DKI. Era berikutnya melanjutkan penataan metropolitan hingga UU No. 34/1999 menetapkan Jakarta sebagai provinsi berstatus khusus.</p></div></div><div class="c c2" data-col="7" style="--c:#9c7a2e;--t:#f3ecd9;grid-column:7;grid-row:2;"><div class="blk"><b>Jakarta sebagai Ibu Kota dan DKI</b><small>1959-2000</small></div></div><div class="c c3" data-col="7" style="--c:#9c7a2e;--t:#f3ecd9;grid-column:7;grid-row:3;"><div class="card"><p>Pada periode ini, Jakarta mengalami pertumbuhan kelas menengah. Di sisi lain, urbanisasi menimbulkan tantangan seperti kemiskinan, kemacetan, kesenjangan sosial, dan kriminalitas.</p><p>Merespons dinamika sosial tersebut,  dilakukan sejumlah upaya untuk memperbaiki kehidupan masyarakat, antara lain Program Perbaikan Kampung (Proyek MHT) pada masa Gubernur Ali Sadikin. Program serupa, yaitu Program Pengentasan Kemiskinan Perkotaan (P2KP) diterapkan ketika masyarakat Jakarta mengalami krisis ekonomi dan politik menjelang milenium baru.</p></div></div><div class="c c1" data-col="8" style="--c:#3d6b6b;--t:#e3eeed;grid-column:8;grid-row:1;"><div class="card"><p>Setelah tahun 2000, Jakarta semakin berkembang sebagai kota dengan peran ekonomi dan orientasi global yang dinamis. Pemerintahan pun merespons dinamika itu supaya tetap relevan dengan publik.</p><p>Sejak tahun 2025, pemerintahan Jakarta yang dipimpin oleh Pramono Anung–Rano Karno melakukan penguatan pelayanan dasar, transportasi, pengendalian banjir, lingkungan, pendidikan, kesejahteraan masyarakat, reformasi tata kelola, pengembangan Transit-Oriented Development (TOD), perluasan transportasi Jabodetabek, layanan air bersih, pengelolaan sampah, dan pemajuan kebudayaan Betawi.</p></div></div><div class="c c2" data-col="8" style="--c:#3d6b6b;--t:#e3eeed;grid-column:8;grid-row:2;"><div class="blk"><b>Jakarta dan Tantangan Masa Depan</b></div></div><div class="c c3" data-col="8" style="--c:#3d6b6b;--t:#e3eeed;grid-column:8;grid-row:3;"><div class="card"><p>Pada awal 2020, pandemi Covid-19 membuat tantangan Jakarta semakin kompleks. Kesehatan menjadi bagian sangat penting dalam kehidupan masyarakat. Sejak 10 April 2020, Jakarta menjadi daerah pertama yang menerapkan Pembatasan Sosial Berskala Besar (PSBB). Pembatasan berlanjut lewat Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM) sejak Januari 2021, bersamaan dengan vaksinasi nasional 13 Januari 2021. Di sisi lain, pandemi mempercepat digitalisasi layanan lewat JAKI untuk informasi Covid-19, bantuan sosial, dan pendaftaran vaksinasi. Kebijakan dan respons warga melahirkan kebiasaan baru dalam menjaga kesehatan, bekerja, dan mengakses layanan secara digital.</p></div></div></div></div>
+<script>
+(function(){
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+document.documentElement.classList.add('mo');
+var sc=document.querySelector('.scroll'),head=document.querySelector('.head');
+var hint=document.createElement('div');hint.className='hint';
+hint.innerHTML='<span>Lini masa bergeser otomatis (Arahkan kursor atau sentuh layar untuk menjeda) <span class="ar">→</span></span>';
+sc.parentNode.insertBefore(hint,sc);
+var bar=document.createElement('div');bar.id='prog';document.body.appendChild(bar);
+sc.addEventListener('scroll',function(){
+ var m=sc.scrollWidth-sc.clientWidth;bar.style.transform='scaleX('+(m?sc.scrollLeft/m:0)+')';
+ if(sc.scrollLeft>40)hint.classList.add('off');
+},{passive:true});
+
+/* ===== AUTO SCROLL OTOMATIS ===== */
+var isAutoScrolling = true;
+var autoScrollTimer = null;
+
+function startAutoScroll() {
+  if (!isAutoScrolling) return;
+  autoScrollTimer = setInterval(function() {
+    if (!isAutoScrolling) return;
+    if (sc.scrollLeft + sc.clientWidth >= sc.scrollWidth - 5) {
+      sc.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      sc.scrollBy({ left: 1.5, behavior: 'smooth' });
+    }
+  }, 35);
+}
+
+// Jeda saat interaksi mouse atau sentuhan
+sc.addEventListener('mouseenter', function() { isAutoScrolling = false; });
+sc.addEventListener('mouseleave', function() { isAutoScrolling = true; });
+sc.addEventListener('touchstart', function() { isAutoScrolling = false; }, {passive: true});
+sc.addEventListener('touchend', function() { 
+  setTimeout(function() { isAutoScrolling = true; }, 4000); 
+}, {passive: true});
+
+// Mulai auto-scroll setelah jeda singkat
+setTimeout(startAutoScroll, 2500);
+
+/* ===== TEXT TYPING: tempo tetap ===== */
+var CPS=55,GAP=250; // karakter per detik (tetap), jeda antar teks (ms)
+var PERIOD_GAP=350; // jeda antar periode (ms)
+function prep(el){
+ if(el._p)return;var t=el.textContent;el._p=1;el._t=t;
+ el.innerHTML='<span class="t-on"></span><span class="t-off"></span>';
+ el._on=el.firstChild;el._off=el.lastChild;el._off.textContent=t;
+}
+function typeEl(el,done){
+ var t=el._t,t0=null,n=0;el._on.classList.add('cur');
+ (function f(ts){
+  if(t0===null)t0=ts;
+  var k=Math.min(t.length,Math.floor((ts-t0)/1000*CPS));
+  if(k!==n){n=k;el._on.textContent=t.slice(0,n);el._off.textContent=t.slice(n)}
+  if(n<t.length)requestAnimationFrame(f);
+  else{el._on.classList.remove('cur');setTimeout(done,GAP)}
+ })(performance.now());
+}
+var items=document.querySelectorAll('.c p,.c b,.c small');
+items.forEach(prep);
+var cols={};
+document.querySelectorAll('.c').forEach(function(c){
+ var k=parseInt(c.style.gridColumn);
+ (cols[k]=cols[k]||{els:[],vis:false,run:false,done:false}).els.push.apply(cols[k].els,c.querySelectorAll('p,b,small'));
+});
+var order=Object.keys(cols).map(Number).sort(function(a,b){return a-b});
+function go(){ // hanya satu periode aktif, urut kiri -> kanan
+ for(var i=0;i<order.length;i++){
+  var c=cols[order[i]];
+  if(c.done)continue;
+  if(c.run||!c.vis)return;
+  c.run=true;
+  (function(c){
+   setTimeout(function(){
+    var left=c.els.length;
+    c.els.forEach(function(el){typeEl(el,function(){
+     if(--left===0){c.done=true;setTimeout(go,PERIOD_GAP)}
+    })});
+   },450);
+  })(c);
+  return;
+ }
+}
+window.__runCol=function(col){cols[parseInt(col)].vis=true;go()};
+window.addEventListener('beforeprint',function(){items.forEach(function(el){el._on.textContent=el._t;el._off.textContent=''})});
+var io=new IntersectionObserver(function(es){
+ var vis=es.filter(function(e){return e.isIntersecting}).sort(function(a,b){return parseInt(a.target.style.gridColumn)-parseInt(b.target.style.gridColumn)});
+ var base=vis.length?parseInt(vis[0].target.style.gridColumn):0;
+ vis.forEach(function(e){
+  e.target.style.setProperty('--d',((parseInt(e.target.style.gridColumn)-base)*.18)+'s');
+  e.target.classList.add('in');io.unobserve(e.target);window.__runCol(e.target.style.gridColumn,parseFloat(e.target.style.getPropertyValue('--d'))||0);
+ });
+},{root:sc,threshold:.15});
+document.querySelectorAll('.c').forEach(function(c){io.observe(c)});
+})();
+</script>
+</body></html>
